@@ -1,29 +1,55 @@
-# FetchRewardsApplication
-Instructions to Run the Application
-Prerequisites
-Docker: Assuming the docker is installed in your machine.
+# Fetch Rewards Application
 
-Steps:
-Clone the Repository:
-git clone https://github.com/mgampa30/FetchRewardsApplication.git
-Navigate to the project directory:
-cd FetchRewardsApplication
+This application processes receipts and calculates points based on specific criteria. It provides RESTful endpoints for receipt processing and points retrieval.
 
-Run the Docker build command:
-docker build -t fetch-rewards-app .
-This will build the Docker image for the application.
+## Running the Application with Docker
 
-Run the application in a Docker container:
-docker run -d -p 8080:8080 fetch-rewards-app
+Follow these instructions to clone the repository and run the application using Docker.
 
-This command will start the application in a Docker container and it will be accessible at http://localhost:8080
+### Prerequisites
 
-To stop the application, use:
-docker ps  # Get the container ID
-docker stop <container_id>
+- **Docker:** Ensure that Docker is installed on your machine.
 
+### Steps
 
+1. **Clone the Repository:**
 
+    ```bash
+    git clone https://github.com/mgampa30/FetchRewardsApplication.git
+    cd FetchRewardsApplication
+    ```
 
+    This will clone the repository and navigate to the project directory.
 
+2. **Build the Docker Image:**
 
+    Run the Docker build command to build the Docker image for the application:
+
+    ```bash
+    docker build -t fetch-rewards-app .
+    ```
+
+3. **Run the Docker Container:**
+
+    Start the application in a Docker container:
+
+    ```bash
+    docker run -d -p 8080:8080 fetch-rewards-app
+    ```
+
+    The application will be accessible at [http://localhost:8080](http://localhost:8080).
+
+4. **Stopping the Application:**
+
+    To stop the application, use the following commands:
+
+    ```bash
+    docker ps  # Get the container ID
+    docker stop <container_id>
+    ```
+
+    Replace `<container_id>` with the actual container ID.
+
+## Accessing the Application
+
+Open a web browser or use tools like cURL or Postman to access the application at [http://localhost:8080](http://localhost:8080).
