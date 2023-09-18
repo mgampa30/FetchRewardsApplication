@@ -1,4 +1,5 @@
-FROM openjdk:8
+FROM eclipse-temurin:17-jdk-alpine
+WORKDIR /usr/app
+COPY target/fetch-rewards-app.jar /usr/app
 EXPOSE 8080
-ADD target/fetch-rewards-docker.jar fetch-rewards-docker.jar
-ENTRYPOINT ["java","-jar","/fetch-rewards-docker.jar"]
+CMD ["java","-jar","fetch-rewards-app.jar"]
