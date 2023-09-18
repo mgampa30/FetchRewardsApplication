@@ -1,6 +1,7 @@
 # Fetch Rewards Application
 
 This application processes receipts and calculates points based on specific criteria. It provides RESTful endpoints for receipt processing and points retrieval.
+Note: We can use lombok for model class to reduce boilerplate code unfortunately I have been getting issue with this in my eclipse.
 
 ## Running the Application with Docker
 
