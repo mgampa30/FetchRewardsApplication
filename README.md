@@ -3,7 +3,7 @@
 This application processes receipts and calculates points based on specific criteria. It provides RESTful endpoints for receipt processing and points retrieval.
 
 
-Note: We can use lombok for model class to reduce boilerplate code unfortunately I have been getting issue with this in my eclipse.
+Note: We can use Lombok for the model class to reduce boilerplate code; however, I've been encountering issues with this in my Eclipse setup.
 
 ## Running the Application with Docker
 
