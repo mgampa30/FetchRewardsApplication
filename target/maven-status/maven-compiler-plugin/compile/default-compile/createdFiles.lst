@@ -1,0 +1,11 @@
+com\example\fetchRewards\fetchRewards\FetchRewardsApplication.class
+com\example\fetchRewards\fetchRewards\data\IReceiptPointsRepository.class
+com\example\fetchRewards\fetchRewards\service\CalculatePointsServiceImpl.class
+com\example\fetchRewards\fetchRewards\service\ReceiptProcessingServiceImpl.class
+com\example\fetchRewards\fetchRewards\model\request\Item.class
+com\example\fetchRewards\fetchRewards\controller\ReceiptController.class
+com\example\fetchRewards\fetchRewards\model\request\Receipt.class
+com\example\fetchRewards\fetchRewards\service\IReceiptProcessingService.class
+com\example\fetchRewards\fetchRewards\data\ReceiptPointsRepositoryImpl.class
+com\example\fetchRewards\fetchRewards\service\ICalculatePointsService.class
+com\example\fetchRewards\fetchRewards\model\response\ResponseId.class
